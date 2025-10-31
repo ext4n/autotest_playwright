@@ -67,6 +67,8 @@
 Проверяем корректность установки: 
 `npx playwright test`.
 
+---
+
 ## Запуск тестов 
 
 Для запуска тестов используем 
@@ -85,6 +87,14 @@
 `git clone https://github.com/ext4n/autotest_playwright.git && cd autotest_playwright && npm init -y && npm install -D @playwright/test && npx playwright install && npx playwright test`.
 
 Структура проекта: папка 
+
+autotest_playwright/
+├─ tests/
+│  └─ test_basket.spec.js   # Основной тестовый сценарий
+├─ package.json             # Конфигурация npm проекта
+├─ package-lock.json        # Зависимости
+└─ README.md                # Этот файл
+
 `tests`
 содержит файл `test_basket.spec.js` с основным тестом 
 
