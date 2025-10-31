@@ -71,11 +71,15 @@
 
 ## Запуск тестов 
 
-#### Для запуска тестов используем 
-```npx playwright test``` 
+### Для запуска тестов используем 
+```
+npx playwright test
+``` 
 
-для запуска конкретного файла теста
-```npx playwright test tests/test_basket.spec.js```
+### для запуска конкретного файла теста
+```
+npx playwright test tests/test_basket.spec.js
+```
 
 Для визуального запуска тестов в браузере: 
 ```npx playwright test --headed```
