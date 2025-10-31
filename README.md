@@ -89,11 +89,13 @@
 Структура проекта: папка 
 
 autotest_playwright/
-``├─ tests/
+```
+├─ tests/
 │  └─ test_basket.spec.js   # Основной тестовый сценарий
 ├─ package.json             # Конфигурация npm проекта
 ├─ package-lock.json        # Зависимости
-└─ README.md                # Этот файл``
+└─ README.md                # Этот файл
+```
 
 `tests`
 содержит файл `test_basket.spec.js` с основным тестом 
