@@ -46,8 +46,7 @@
 
 Все действия логируются прямо на странице через функцию `logOnPage`, чтобы удобно отслеживать ход теста.
 
-Для запуска проекта необходимо иметь **[Node.js](https://nodejs.org/) версии 18+**, **npm** и **[Git](https://git-scm.com/install/)** <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js</a>
-. 
+Для запуска проекта необходимо иметь **[Node.js](https://nodejs.org/) версии 18+**, **npm** и **[Git](https://git-scm.com/install/)**. 
 
 ---
 
