@@ -104,7 +104,7 @@ npx playwright show-report
 
 Полный процесс установки и запуска на другой машине можно выполнить одной строкой: 
 ```
-git clone https://github.com/ext4n/autotest_playwright.git && cd autotest_playwright && npm init -y && npm install -D @playwright/test && npx playwright install && npx playwright test
+git clone https://github.com/ext4n/autotest_playwright.git; cd autotest_playwright; npm init -y; npm install -D @playwright/test; npx playwright install; npx playwright test
 ```
 
 ---
