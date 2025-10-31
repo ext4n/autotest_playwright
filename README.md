@@ -136,7 +136,7 @@ autotest_playwright/
 
 # Успешность теста
 
-![Демонстрация](./assets/video.webm)
+![Демонстрация](./assets/video.gif)
 
 ---
 
