@@ -52,39 +52,39 @@
 ## Установка и настройка
 
 ### Сначала клонируем репозиторий и переходим в папку проекта одной командой: 
-`git clone https://github.com/ext4n/autotest_playwright.git && cd autotest_playwright`. 
+```git clone https://github.com/ext4n/autotest_playwright.git && cd autotest_playwright``` 
 
-Если в проекте отсутствует файл `package.json`, создаём его: 
-`npm init -y`
+### Если в проекте отсутствует файл `package.json`, создаём его: 
+```npm init -y```
 
-Устанавливаем Playwright: 
-`npm install -D @playwright/test` 
+### Устанавливаем Playwright: 
+```npm install -D @playwright/test``` 
 
-Затем скачиваем все необходимые браузеры и инструменты: 
-`npx playwright install`
+### Затем скачиваем все необходимые браузеры и инструменты: 
+```npx playwright install```
 (Chromium, Firefox, Webkit, FFMPEG и Winldd).
 
-Проверяем корректность установки: 
-`npx playwright test`.
+### Проверяем корректность установки: 
+```npx playwright test```
 
 ---
 
 ## Запуск тестов 
 
 Для запуска тестов используем 
-`npx playwright test`, 
+```npx playwright test``` 
 
 для запуска конкретного файла теста
-`npx playwright test tests/test_basket.spec.js`
+```npx playwright test tests/test_basket.spec.js```
 
 Для визуального запуска тестов в браузере: 
-`npx playwright test --headed`
+```npx playwright test --headed```
 
 После завершения тестов можно открыть HTML-отчёт командой 
-`npx playwright show-report`
+```npx playwright show-report```
 
 Полный процесс установки и запуска на другой машине можно выполнить одной строкой: 
-`git clone https://github.com/ext4n/autotest_playwright.git && cd autotest_playwright && npm init -y && npm install -D @playwright/test && npx playwright install && npx playwright test`.
+```git clone https://github.com/ext4n/autotest_playwright.git && cd autotest_playwright && npm init -y && npm install -D @playwright/test && npx playwright install && npx playwright test```.
 
 ---
 
