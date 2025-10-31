@@ -54,7 +54,7 @@
 
 ### Сначала клонируем репозиторий и переходим в папку проекта одной командой: 
 ```
-git clone https://github.com/ext4n/autotest_playwright.git && cd autotest_playwright
+git clone https://github.com/ext4n/autotest_playwright.git ; cd autotest_playwright
 ``` 
 
 ### Если в проекте отсутствует файл `package.json`, создаём его: 
